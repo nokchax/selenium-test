@@ -13,6 +13,10 @@ repositories {
 }
 
 dependencies {
+    //for selenium
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    compile group: 'com.google.guava', name: 'guava', version: '28.0-jre'
+
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
