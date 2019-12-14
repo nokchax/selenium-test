@@ -9,5 +9,9 @@ public class Selenium {
     @PostConstruct
     public void init() {
         System.out.println("test");
+
+        // do crawl
+
+        // update db using crawled data
     }
 }
