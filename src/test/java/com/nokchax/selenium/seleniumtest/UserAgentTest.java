@@ -10,6 +10,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * test that what kind of user agent can be applied with chrome web driver
+ */
 public class UserAgentTest {
     private WebDriver browser;
 
