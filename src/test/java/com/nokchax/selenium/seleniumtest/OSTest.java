@@ -12,5 +12,6 @@ public class OSTest {
         assertThat(property).startsWith("Mac OS");
     }
 
-    //ubuntu's os.name = Linux
+    // ubuntu's os.name = Linux
+    // how about window?
 }
